@@ -21,7 +21,7 @@ body {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 64px 24px 48px;
+  padding: 100px 24px 48px;
 }
 
 a {
@@ -44,23 +44,49 @@ a:hover {
 
 .photo-col {
   flex-shrink: 0;
-  width: 190px;
+  width: 230px;
+  text-align: center;
 }
 
 .profile-photo {
   display: block;
-  width: 190px;
-  height: 190px;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
   border-radius: 6px;
   background: #eee;
   margin-bottom: 14px;
 }
 
+.mini-title {
+  margin: 0 0 6px;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
 .links {
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 8px;
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: #fbf1ec;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+}
+
+.btn-box:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
 }
 
 .bio-col {
@@ -81,6 +107,11 @@ a:hover {
   color: var(--text);
 }
 
+.contact-line {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+}
+
 .affiliation {
   margin: 2px 0 10px;
   color: var(--muted);
@@ -94,27 +125,6 @@ a:hover {
 
 .bio p {
   margin: 0 0 14px;
-}
-
-.btn {
-  display: block;
-  text-align: center;
-  padding: 7px 16px;
-  font-size: 0.9rem;
-  border: 1px solid var(--accent);
-  border-radius: 4px;
-  background: var(--accent);
-  color: #fff;
-}
-
-.btn:hover {
-  opacity: 0.88;
-  border-bottom: 1px solid var(--accent);
-}
-
-.btn-outline {
-  background: transparent;
-  color: var(--accent);
 }
 
 .social {
@@ -165,6 +175,16 @@ h2 {
   margin: 0 0 6px;
   font-size: 0.92rem;
   color: var(--muted);
+}
+
+.title-link {
+  color: inherit;
+  border-bottom: 1px solid transparent;
+}
+
+.title-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
 .paper-ref {
