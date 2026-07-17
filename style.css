@@ -21,7 +21,7 @@ body {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 100px 24px 48px;
+  padding: 24px 24px 48px;
 }
 
 a {
@@ -125,6 +125,9 @@ a:hover {
 
 .bio p {
   margin: 0 0 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .social {
